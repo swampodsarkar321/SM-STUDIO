@@ -4,7 +4,7 @@ export const WA = (env.VITE_WHATSAPP_NUMBER || '').replace(/\D/g, '')
 export const EMAIL: string = env.VITE_CONTACT_EMAIL || ''
 export const FB: string = env.VITE_FACEBOOK_URL || ''
 export const YT: string = env.VITE_YOUTUBE_URL || ''
-export const SITE: string = env.VITE_SITE_URL || ''
+export const SITE: string = env.VITE_SITE_URL || 'https://sm-studio-eight.vercel.app'
 export const FORM_ENDPOINT: string = env.VITE_FORM_ENDPOINT || ''
 
 export const waLink = (msg: string) =>
